@@ -1,52 +1,118 @@
 [[Infernal]]
-arch = "i686"
-git-tree-sha1 = "0d24f8037c6560de602a8a24ef917b219a50b809"
-libc = "glibc"
-os = "linux"
-
-    [[Infernal.download]]
-    sha256 = "c7335182f46221a9910c03355098caabc52f56a138438c8d3f31150d83ac96a1"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.i686-linux-gnu.tar.gz"
-[[Infernal]]
-arch = "i686"
-git-tree-sha1 = "c823bae9d40efcd0556a745350358a7c0b58d54f"
-libc = "musl"
-os = "linux"
-
-    [[Infernal.download]]
-    sha256 = "272d253db6def3ac94dedd0006ae8e1939b3ce20298e3484d032bcf90844f474"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.i686-linux-musl.tar.gz"
-[[Infernal]]
-arch = "x86_64"
-git-tree-sha1 = "3c53ec6158fa36b1de5c8130e60af4e93b4f607a"
+arch = "aarch64"
+git-tree-sha1 = "203079a5367af89cdb522e7121c2942cf10c6e5c"
 os = "macos"
 
     [[Infernal.download]]
-    sha256 = "81ddb184648627019d6b7295ff666b9dcbaf2d17e2f270b9549b21a63722c113"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.x86_64-apple-darwin.tar.gz"
+    sha256 = "1eb5f55e320c93aec27ed35e36bb2b427bd811c334bc298372ece351e02a7ded"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.aarch64-apple-darwin.tar.gz"
 [[Infernal]]
-arch = "x86_64"
-git-tree-sha1 = "d3cb3e43043f9649157700ef6c68a42ceaa266d5"
+arch = "aarch64"
+git-tree-sha1 = "1b08417fcd2c1d0f18845042a41f70ba39805e64"
 libc = "glibc"
 os = "linux"
 
     [[Infernal.download]]
-    sha256 = "39b29b7c6b4cce8172ecc4abf1f8fc82427b19fbb99d1433b115006d15df3a05"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.x86_64-linux-gnu.tar.gz"
+    sha256 = "4fd9d18a441cdc12c9052d135f6277211d4a99f6ebeef77d2e944a166e37adcf"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.aarch64-linux-gnu.tar.gz"
 [[Infernal]]
-arch = "x86_64"
-git-tree-sha1 = "29763495897fbeed634a3a4314a15b32decf5f34"
+arch = "aarch64"
+git-tree-sha1 = "0f2c23dd95e31f4b755210942a7db0c49adabd47"
 libc = "musl"
 os = "linux"
 
     [[Infernal.download]]
-    sha256 = "fdb340e8c9e3430e09d9535ad774ebf838d6f6525ea77693bd8352880a320b61"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.x86_64-linux-musl.tar.gz"
+    sha256 = "63159d925814326158b13f92ea8e349144e62697be24f5eab9169c93791ce489"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.aarch64-linux-musl.tar.gz"
+[[Infernal]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d0ee1e1521169b52f93694763b40eb25cdc92902"
+libc = "glibc"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "7f3f3a69d57c551da0cd3f0551efe6d66285cb0f366b85739a3f12b0f29a5bcc"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.armv6l-linux-gnueabihf.tar.gz"
+[[Infernal]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d0042bfce92ce784cb9f0604ede241a16fa5e19a"
+libc = "musl"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "2a9e7c85120c043894e706fc74ab64e8ffa4f57884f7e5b3022d2d4a403203b7"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.armv6l-linux-musleabihf.tar.gz"
+[[Infernal]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b7ea3d34e91a4913c11789d9822a0c642024ff0d"
+libc = "glibc"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "ce8e982c94568754318fe0b1bf2906d00dce7136f8c91fc12eb5beedd07473f6"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.armv7l-linux-gnueabihf.tar.gz"
+[[Infernal]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "64d4178d7720ef65d6db027d97734b85350f3f6f"
+libc = "musl"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "6ce7688f6862bafcdf58394be2242dac7e4004ba7df6682da6cc122cdd44f1d4"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.armv7l-linux-musleabihf.tar.gz"
+[[Infernal]]
+arch = "i686"
+git-tree-sha1 = "23ebfe4533fa14a352ef2a7ccb362eabb5120343"
+libc = "glibc"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "8d180629c28c23ff6fc441827c3a6b3a238bbbe164bc6f9c54f929dd583f5b88"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.i686-linux-gnu.tar.gz"
+[[Infernal]]
+arch = "i686"
+git-tree-sha1 = "e752cd7b46d14e0813f9cba930df2af3f6f4a3ae"
+libc = "musl"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "6455024e2bc39570fd92c01f4d15ced9aa592048337e1643e3cd6480125658fd"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.i686-linux-musl.tar.gz"
 [[Infernal]]
 arch = "x86_64"
-git-tree-sha1 = "9c281933ed43c29cd8e12ef859045ec71a73ad78"
+git-tree-sha1 = "e0ea9f0aaf62eeab52322387523b609da197bfa0"
+os = "macos"
+
+    [[Infernal.download]]
+    sha256 = "32455dbaff89f44737aee01b9a787507a9902cd669b0dd4d20dff0815293853d"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.x86_64-apple-darwin.tar.gz"
+[[Infernal]]
+arch = "x86_64"
+git-tree-sha1 = "951bd5fa55d8a7724fcc00c4fc405d0c1e2adbe4"
+libc = "glibc"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "02d125fe90f99ea767c274159cd720b7ac0b53ca4d7aa4b87b72bc15d349c7b4"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.x86_64-linux-gnu.tar.gz"
+[[Infernal]]
+arch = "x86_64"
+git-tree-sha1 = "7f04f2208977b3167c1baa4bf56db3db04b7122f"
+libc = "musl"
+os = "linux"
+
+    [[Infernal.download]]
+    sha256 = "a3443c00e6f8905e97aa31e41265897067ffa63909b35bbf3d359fd7cfd38b2a"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.x86_64-linux-musl.tar.gz"
+[[Infernal]]
+arch = "x86_64"
+git-tree-sha1 = "50566a7ba054c22abc3d03036c3f744e15c00f1f"
 os = "freebsd"
 
     [[Infernal.download]]
-    sha256 = "e654acf0dabf0f48935ce93fad844ba5ec7d1e6b303a1f0430111d128c1d14fc"
-    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.4+1/Infernal.v1.1.4.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "c87cfcc1942f8ece5e6535edead86814b99904b77e06ea3c176127404ecf1a8e"
+    url = "https://github.com/JuliaBinaryWrappers/Infernal_jll.jl/releases/download/Infernal-v1.1.5+0/Infernal.v1.1.5.x86_64-unknown-freebsd.tar.gz"
